@@ -19,6 +19,9 @@ document.querySelector("#task-btn").addEventListener("click", function () {
   const container = document.querySelector("#content-container");
   container.appendChild(tr);
 
+  //   clear the input field
+  document.getElementById("input-value").value = "";
+
   //   deleting the task AKA delete button
   const deleteBtns = document.querySelectorAll(".delete-btn");
   for (let btn of deleteBtns) {
