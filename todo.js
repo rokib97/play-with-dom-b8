@@ -30,7 +30,7 @@ document.querySelector("#task-btn").addEventListener("click", function () {
       e.target.parentElement.parentElement.style.display = "none";
     });
   }
-  //   complete the task AKA delete button
+  //   complete the task AKA Done button
   const doneBtns = document.querySelectorAll(".done-btn");
   for (let btn of doneBtns) {
     btn.addEventListener("click", function (e) {
